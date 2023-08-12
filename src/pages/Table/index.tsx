@@ -39,7 +39,7 @@ export const CustomTable = () => {
   const [load, setLoad] = useState(false);
   const navigate = useNavigate();
   const toast = useToast();
-
+  load;
   const {
     register,
     setValue,
